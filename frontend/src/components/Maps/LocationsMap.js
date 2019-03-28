@@ -10,7 +10,7 @@ const LocationsMap = withScriptjs(withGoogleMap((props) =>{
   
   if (!locations){return null}
   let markers = locations.map((location) => {
-    return <MarkerDisplay location={{lat: location.lat, lng: location.long}} />
+    return <MarkerDisplay lat={props.lat} lng={props.lng} location={{lat: location.lat, lng: location.long}} />
   })                  
   return (
       <GoogleMap

@@ -37,10 +37,10 @@ class StandsByBorough extends React.Component {
     return (
       <div className='byborough-container'>
         <Switch>
-          <Route path='/byborough/manhattan' render={() => <Stands borough={manhattan}/>}/>
-          <Route path='/byborough/queens' render={() => <Stands borough={queens}/>}/>
-          <Route path='/byborough/brooklyn' render={() =><Stands borough={brooklyn}/>}/>
-          <Route path='/byborough/bronx' render={() => <Stands borough={bronx}/>}/>
+          <Route path='/byborough/manhattan' render={() => <Stands lat={this.props.lat} lng={this.props.lng} borough={manhattan}/>}/>
+          <Route path='/byborough/queens' render={() => <Stands lat={this.props.lat} lng={this.props.lng} borough={queens}/>}/>
+          <Route path='/byborough/brooklyn' render={() =><Stands lat={this.props.lat} lng={this.props.lng} borough={brooklyn}/>}/>
+          <Route path='/byborough/bronx' render={() => <Stands lat={this.props.lat} lng={this.props.lng} borough={bronx}/>}/>
         </Switch>
       </div>
     )
