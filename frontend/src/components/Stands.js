@@ -3,7 +3,7 @@ import React from 'react';
 // import { withScriptjs, withGoogleMap, GoogleMap } from "react-google-maps";
 // import MarkerDisplay from './Maps/MarkerDisplay';
 import MapContainer from './Maps/MapContainer';
-import redpin from "../assets/redpin.png"
+
 
 
 import standsByBoro from "../css/standsByBoro.css";
@@ -14,7 +14,7 @@ const Stands = props => {
       <>
 
       <ul key={stand.id}>
-        <div className="redpin"><img src={redpin} alt="" width="20px" height="auto"/></div>
+
         <li>
           <span>Car-type: {stand.car_type}</span>
         </li>
