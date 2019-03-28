@@ -17,7 +17,6 @@
   padding-top: 20px;
   border-radius: 10px;
   overflow: scroll;
-
 }
 
 .redpin {
@@ -39,4 +38,18 @@
 
 .the_map {
   padding-top: 20px;
+}
+
+.link-home {
+  left: 40px;
+  top: 90px;
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  color: yellow;
+}
+
+.link-home:before {
+  content: "<";
+  margin-right: 7px;
 }
