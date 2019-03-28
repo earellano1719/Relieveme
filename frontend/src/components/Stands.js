@@ -1,7 +1,8 @@
 import React from "react";
 // import { withScriptjs, withGoogleMap, GoogleMap } from "react-google-maps";
 // import MarkerDisplay from './Maps/MarkerDisplay';
-import MapContainer from "./Maps/MapContainer";
+
+import MapContainer from './Maps/MapContainer';
 
 import { withRouter, Link } from "react-router-dom";
 
@@ -28,6 +29,7 @@ const Stands = props => {
             <span>Cross-streets: {stand.cross_streets}</span>
           </li>
         </ul>
+
       </>
     );
   });

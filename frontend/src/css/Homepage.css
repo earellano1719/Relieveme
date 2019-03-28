@@ -20,19 +20,19 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-size: 70px;
+  font-size: 80px;
   color: white;
   text-shadow: 2px 2px 5px black;
 }
 
 .subtitle {
   font-family: "Rokkitt", serif;
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  color: white;
-  text-shadow: 2px 2px 5px black;
+  color: #FEE84E;
+  text-shadow: 3px 3px 3px black;
 }
 .locationIcon {
   display: flex;
