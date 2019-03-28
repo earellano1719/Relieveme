@@ -42,7 +42,8 @@
   position: absolute;
   text-decoration: none;
   font-size: 20px;
-  color: yellow;
+  color: #fee84e;
+  font-family: "Oswald", sans-serif;
 }
 
 .link-home:before {
