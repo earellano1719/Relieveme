@@ -51,7 +51,12 @@ INSERT INTO queens (neighborhood, car_type, street, cross_streets, lat, long) VA
 ('Astoria', 'Taxi Only', '31 St (east side)', '37 Ave  & 36 Ave', '40.7549787','-73.9332458'),
 ('Long Island City', 'Taxi/FHVs', '43 Ave (north side)','36 St  & 37 St', '40.7460989','-73.9307412'),
 ('Long Island City', 'Taxi/FHVs', '45 Ave (south side)', 'Jackson Ave & 23 St', '40.746587','-73.9460698'),
-('Sunnyside', 'Taxi Only', '55 St (east side)', 'Queens Blvd  & Roosevelt Ave', '40.7423727','-73.9122987');
+('Sunnyside', 'Taxi Only', '55 St (east side)', 'Queens Blvd & Roosevelt Ave', '40.7423727','-73.9122987'),
+('Long Island City', 'Taxi/FHVs', '47 Ave (south side)', '11 St & Vernon Blvd', '40.7450174','-73.9528915'),
+('Sunnyside', 'Taxi Only', '55 St (east side)', 'Queens Blvd  & Roosevelt Ave', '40.7423727','-73.9122987'),
+('Sunnyside', 'Taxi Only', '64 St (west side)', '34 Ave & 35 Ave', '40.7522645','-73.9012039'),
+('Sunnyside', 'Taxi/FHVs', '61 St (east side)','Roosevelt Ave & 39 Ave', '40.7455903','-73.9055766'),
+('Sunnyside', 'Taxi Only', 'Queens Blvd (south side)', '50 St & 51 St', '40.7425469','-73.917198');
 
 
 INSERT INTO bronx (neighborhood, car_type, street, cross_streets, lat, long) VALUES
@@ -73,4 +78,10 @@ INSERT INTO manhattan (neighborhood, car_type, street, cross_streets, lat, long)
 ('Hell''s Kitchen', 'Taxi/FHVs', '11 Ave (east side)', 'W 45 St & W 46 St', '40.7627606','-73.9991214'),
 ('Gramercy Park', 'Taxi/FHVs', '3 Ave (west side)', 'E 14 St & E 15 St', '40.7332966','-73.9893702'),
 ('Midtown', 'Taxi/FHVs', '8 Ave (west side)', 'W 46 St & W 47 St', '40.759795','-73.9901157'),
-('Lower Manhattan', 'Taxi/FHVs', '6 Ave (east side)', 'Thompson St & Grand St', '40.7222337','-74.0075707')
+('Lower Manhattan', 'Taxi/FHVs', '6 Ave (east side)', 'Thompson St & Grand St', '40.7222337','-74.0075707'),
+('Upper East Side', 'Taxi Only', 'E 86 St (north side)', 'Henderson Pl & York Ave', '40.7751526','-73.9474355'),
+('Upper East Side', 'Taxi Only', 'E 87 St (south side)', '1 Ave & 2 Ave', '40.7775601','-73.9510733'),
+('Lower East Side', 'Taxi/FHVs', 'Grand St (north side)', 'Forsyth St & Chrystie St', '40.7179272','-73.9952561'),
+('Kips Bay', 'Taxi/FHVs', 'Madison Ave (west side)', 'E 26 St & E 27 St', '40.7427822','-73.9887802'),
+('Lower Manhattan', 'Taxi/FHVs', 'Maiden Ln (south side)', 'Front St & South St', '40.7057861','-74.0076905'),
+('Lower Manhattan', 'Taxi Only', 'Park Row (east side)', 'Ann St & Beekman St', '40.7113851','-74.0108396');
