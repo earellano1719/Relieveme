@@ -11,10 +11,16 @@ export default class MarkerDisplay extends React.Component {
 
   render(){
     return(
+        <>
         <Marker
           position={this.props.location}
         >
         </Marker>
+        <Marker
+          position={{lat: this.props.lat , lng: this.props.lng}}
+        >
+        </Marker>
+        </>
     );
   }
 }

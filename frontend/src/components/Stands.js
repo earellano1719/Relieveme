@@ -36,7 +36,7 @@ const Stands = props => {
       <div className="stands_container">
         <div className="stands-list">{standsList}</div>
         <div className="the_map">
-          <MapContainer locations={props.borough} />
+          <MapContainer lat={props.lat} lng={props.lng} locations={props.borough} />
         </div>
       </div>
       <Link className="link-home" to="#" onClick={goBack}>

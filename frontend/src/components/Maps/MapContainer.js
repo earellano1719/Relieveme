@@ -8,6 +8,8 @@ export default class MapContainer extends React.Component {
       <>
         <div className="allLocationsMap">
           <LocationsMap
+            lat={this.props.lat}
+            lng={this.props.lng}
             locations={this.props.locations}
             googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyDSDyPJfdOKPalmFHFbWfUO_UU3E5c1Trc&v=3.exp&libraries=geometry,drawing,places`}
             loadingElement={<div style={{ height: `100%` }} />}
