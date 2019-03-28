@@ -17,16 +17,16 @@
   font-size: 20px;
   line-height: 1.3em;
   padding-right: 30px;
-  margin-top: -4%;
+  margin-top: -4.3%;
 }
 
-.nav_boro_links a {
+.nav_boro_links a:link {
   color: white;
   text-decoration: none;
   text-transform: normal;
   letter-spacing: normal;
   line-height: 1.3em;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .nav_boro_links a:visited {
@@ -40,4 +40,5 @@
 
 .nav_boro_links a:active {
   color: purple;
+  
 }
