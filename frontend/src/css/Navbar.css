@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #ffe83c;
+  height: 100px;
+  width: 100%;
+  list-style-type: none;
+}
+
+.logo {
+  padding-left: 30px;
+}
