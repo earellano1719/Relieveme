@@ -13,8 +13,6 @@ const Stands = props => {
     props.history.goBack();
   };
 
-  console.log(goBack);
-
   const standsList = props.borough.map(stand => {
     return (
       <>
