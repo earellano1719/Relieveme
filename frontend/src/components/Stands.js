@@ -3,6 +3,7 @@ import React from 'react';
 // import { withScriptjs, withGoogleMap, GoogleMap } from "react-google-maps";
 // import MarkerDisplay from './Maps/MarkerDisplay';
 import MapContainer from './Maps/MapContainer';
+import redpin from "../assets/redpin.png"
 
 
 import standsByBoro from "../css/standsByBoro.css";
@@ -10,7 +11,10 @@ import standsByBoro from "../css/standsByBoro.css";
 const Stands = props => {
   const standsList = props.borough.map(stand => {
     return (
+      <>
+
       <ul key={stand.id}>
+        <div className="redpin"><img src={redpin} alt="" width="20px" height="auto"/></div>
         <li>
           <span>Car-type: {stand.car_type}</span>
         </li>
@@ -21,6 +25,7 @@ const Stands = props => {
           <span>Cross-streets: {stand.cross_streets}</span>
         </li>
       </ul>
+      </>
     );
   });
   return (
