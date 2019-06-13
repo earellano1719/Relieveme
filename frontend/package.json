@@ -6,10 +6,12 @@
     "axios": "^0.18.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
+    "react-geocode": "^0.1.2",
     "react-geolocated": "^2.4.1",
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "reverse-geocoding": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

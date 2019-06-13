@@ -2,13 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { geolocated, geoPropTypes } from "react-geolocated";
 import "../css/Homepage.css";
-import loc_icon from "../assets/kisspng-map-computer-icons-clip-art-map-red-pin-png-5ab1ace8b19201.6464219015215935767273.png";
+import loc_icon from "../assets/map-red-pin.png";
+import axios from "axios";
 
 class Homepage extends React.Component {
   state = {
     lat: "",
-    long: ""
+    long: "",
+    borough: ''
   };
+  
   handleLocation = () => {
     const { coords } = this.props;
     this.setState({
@@ -16,8 +19,20 @@ class Homepage extends React.Component {
       long: coords.longitude
     });
   };
+  
+  handleBorough = () => {
+    let apiKey = 'AIzaSyDxNWC4C7CxsdvIODDlot2gwtlkfg2O_gI';
+    const { lat, long } = this.state
+    axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=${apiKey}`)
+    .then(res => {
+      console.log(res)
+    })
+  }
+
   render() {
-    console.log(this.state);
+    // console.log(this.state);
+    this.handleBorough();
+
     return !this.props.isGeolocationAvailable ? (
       <div>Your browser does not support Geolocation</div>
     ) : !this.props.isGeolocationEnabled ? (
