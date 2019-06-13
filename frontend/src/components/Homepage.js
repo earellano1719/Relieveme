@@ -56,7 +56,7 @@ class Homepage extends React.Component {
         </div>
       </>
     ) : (
-            <div>Getting the location data&hellip; </div>
+            null
           );
   }
 } // Using Object.assign
